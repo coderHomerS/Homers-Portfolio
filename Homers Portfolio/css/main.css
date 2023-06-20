@@ -1,0 +1,168 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+
+body {
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.wrapper  {
+    margin: 0 auto;
+    background-color: rgb(177, 216, 177);
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+h1 {
+    font-size: 60px;
+}
+
+nav {
+    margin: 40px;
+}
+
+.main-nav {
+    list-style-type: none;
+    display: flex;
+    text-decoration: underline;
+    gap: 40px;
+    font-size: 25px;
+    justify-content: center;
+}
+
+.below-header{
+    padding: 60px;
+    position: relative;
+    background-color: red;
+    display: block;
+}
+
+.img-below-header{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.main {
+    display: flex;
+    gap: 10px;
+    margin-top: 40px;
+    margin-left: 20px;
+    margin-right: 50px;
+    
+}
+
+.cards{
+    flex: 1;
+    flex: 65%;
+}
+
+#card-2:hover, #card-3:hover, #card-4:hover, #card-5:hover, #card-6:hover {
+    background-color: red;
+}
+
+.Left-Headers{
+    flex: 2;
+    justify-content: space-around;
+    text-align: right;
+    
+}
+
+h2 {
+    font-size: 40px;
+}
+
+#about-me{
+    height: 100px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+    border-right: 5px solid black;
+    
+}
+
+#work {
+    height: 860px;
+    padding-right: 10px;
+    border-right: 5px solid black;
+}
+
+#contact-me{
+    margin-top: 10px;
+    height: 100px;
+    padding-right: 10px;
+    border-right: 5px solid black;
+}
+
+#card-1 {
+    
+}
+
+#card-2 {
+    border-style: solid;
+    height: 500px;
+    margin: 20px;
+    margin-top: 50px;
+    
+}
+
+.bottom-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-evenly;
+    flex: 1
+    
+}
+
+#card-3 {
+    height: 150px;
+    width: 46%;
+    border-style: solid;
+}
+
+#card-4 {
+    height: 150px;
+    width: 46%;
+    border-style: solid;
+    
+}
+
+#card-5 {
+    height: 150px;
+    width: 46%;
+    border-style: solid;
+    
+}
+
+#card-6 {
+    height: 150px;
+    width: 46%;
+    border-style: solid;
+    
+}
+
+footer{
+    display: flex;
+    flex: 1;
+    justify-content: space-between;
+    text-decoration: underline;
+    height: 150px;
+    align-items: center;
+    margin-left: 25px;
+    margin-right: 25px;
+    
+}
+
+
+
+
+
