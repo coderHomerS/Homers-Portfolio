@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    
 }
 
 
@@ -8,7 +9,7 @@
 body {
     margin: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    background-color: #FEEFE5;
 }
 
 .wrapper  {
@@ -20,14 +21,23 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #ffffff;
 }
 
 h1 {
-    font-size: 60px;
+    font-size: 50px;
+    margin-left: 15px;
+    font-family: serif;
+}
+
+.fsd {
+    font-size: 25px;
 }
 
 nav {
     margin: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
 }
 
 .main-nav {
@@ -37,6 +47,7 @@ nav {
     gap: 40px;
     font-size: 25px;
     justify-content: center;
+    
 }
 
 .below-header{
@@ -44,6 +55,7 @@ nav {
     position: relative;
     background-color: red;
     display: block;
+    background-color: #5bc0eb;
 }
 
 .img-below-header{
@@ -64,6 +76,8 @@ nav {
 .cards{
     flex: 1;
     flex: 65%;
+    font-family: monospace;
+    font-size: 20px;
 }
 
 #card-2:hover, #card-3:hover, #card-4:hover, #card-5:hover, #card-6:hover {
@@ -74,6 +88,7 @@ nav {
     flex: 2;
     justify-content: space-around;
     text-align: right;
+    font-family: monospace;
     
 }
 
@@ -82,7 +97,7 @@ h2 {
 }
 
 #about-me{
-    height: 100px;
+    height: 280px;
     padding-right: 10px;
     margin-bottom: 20px;
     border-right: 5px solid black;
@@ -102,8 +117,17 @@ h2 {
     border-right: 5px solid black;
 }
 
+.HeadShot{
+    border-style: solid;
+}
+
+
 #card-1 {
-    
+    display: flex;
+    flex: 1;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
 }
 
 #card-2 {
@@ -147,6 +171,8 @@ h2 {
     height: 150px;
     width: 46%;
     border-style: solid;
+    background-image: url(images/running\ man.jpg);
+    background-size: cover;
     
 }
 
