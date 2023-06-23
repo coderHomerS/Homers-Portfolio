@@ -50,6 +50,14 @@ nav {
     
 }
 
+.text-below-header {
+    margin-right: 20px;
+    font-size: 30px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+
 .below-header{
     padding: 60px;
     position: relative;
@@ -80,9 +88,6 @@ nav {
     font-size: 20px;
 }
 
-#card-2:hover, #card-3:hover, #card-4:hover, #card-5:hover, #card-6:hover {
-    background-color: red;
-}
 
 .Left-Headers{
     flex: 2;
@@ -130,13 +135,25 @@ h2 {
     align-items: center;
 }
 
+
+.text-card, h3 {
+    color: white;
+}
+
 #card-2 {
     border-style: solid;
     height: 500px;
     margin: 20px;
     margin-top: 50px;
+    background-image: url(images/surf\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
     
 }
+
+
 
 .bottom-cards {
     display: flex;
@@ -151,12 +168,20 @@ h2 {
     height: 150px;
     width: 46%;
     border-style: solid;
+    background-image: url(images/led\ wall.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #card-4 {
     height: 150px;
     width: 46%;
     border-style: solid;
+    background-image: url(images/calculator.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
 
@@ -164,6 +189,10 @@ h2 {
     height: 150px;
     width: 46%;
     border-style: solid;
+    background-image: url(images/puzzle.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
 
@@ -173,6 +202,8 @@ h2 {
     border-style: solid;
     background-image: url(images/running\ man.jpg);
     background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
     
 }
 
